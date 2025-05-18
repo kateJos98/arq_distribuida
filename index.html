@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Portal Distribuido</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome para los íconos -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🌐 Portal Distribuido</h1>
+    <p>
+      Este proyecto representa una arquitectura distribuida porque divide sus responsabilidades entre múltiples servicios independientes que se comunican entre sí a través de Internet. Este frontend actúa como punto de entrada que redirige hacia diversos servicios PaaS encargados del procesamiento backend, así como a herramientas SaaS como Google Drive y Trello, que añaden funcionalidades externas como almacenamiento o gestión de tareas. Además, se apoya en un entorno IaaS (AWS EC2) que permite mayor control sobre infraestructura personalizada. <br/>
+      Todos estos componentes funcionan de manera autónoma y están desplegados en entornos distintos, pero se integran entre sí para brindar una experiencia completa.
+    </p>
+
+    <section>
+      <h2>PaaS</h2>
+      <div class="button-group">
+        <a href="https://tuapp.herokuapp.com" target="_blank"><i class="fab fa-heroku"></i> Heroku</a>
+        <a href="https://railway.app" target="_blank"><i class="fas fa-train"></i> Railway</a>
+        <a href="https://digitalocean.com" target="_blank"><i class="fas fa-water"></i> Digital Ocean</a>
+        <a href="https://vercel-ejemplo.vercel.app/" target="_blank"><i class="fas fa-rocket"></i> Vercel</a>
+      </div>
+    </section>
+
+    <section>
+      <h2>SaaS</h2>
+      <div class="button-group">
+        <a href="https://drive.google.com" target="_blank"><i class="fab fa-google-drive"></i> Google Drive</a>
+        <a href="https://trello.com" target="_blank"><i class="fab fa-trello"></i> Trello</a>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
